@@ -7,7 +7,8 @@
     "po-test-chromium": "npx playwright test test-with-page-objects.spec.ts --project=chromium",
     "po-test-chromium:qa": "TEST_ENV=qa npx playwright test test-with-page-objects.spec.ts --project=chromium",
     "po-test-firefox": "npx playwright test test-with-page-objects.spec.ts --project=firefox",
-    "po-test-all": "npm run po-test-chromium && npm run po-test-firefox"  },
+    "po-test-all": "npm run po-test-chromium && npm run po-test-firefox"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
